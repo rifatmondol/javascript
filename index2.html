@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Multi form</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	<div class="container">
+		<div class="progress">
+			<div class="step">
+				<div class="bullet">
+					<span>1</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+			<div class="step">
+				<div class="bullet">
+					<span>2</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+			<div class="step">
+				<div class="bullet">
+					<span>3</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+			<div class="step">
+				<div class="bullet">
+					<span>4</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+			<div class="step">
+				<div class="bullet">
+					<span>5</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+			<div class="step">
+				<div class="bullet">
+					<span>6</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+			<div class="step">
+				<div class="bullet">
+					<span>7</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+			<div class="step">
+				<div class="bullet">
+					<span>8</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+			<div class="step">
+				<div class="bullet">
+					<span>9</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+
+		</div>
+		<div class="form-outer">
+			<form action="#">
+				<!-- Section 1 -->
+				<div class="page slidepage">
+					<div class="title">had you joined our service before?</div>
+					<div class="field firstitembtn" style="height: 100px;">
+						<button class="servicebtn btn1"><i class="far fa-thumbs-up"></i>Yes</button>
+						<button class="servicebtn btn1"><i class="far fa-thumbs-down"></i>No</button>
+						<button class="servicebtn btn1"><i class="far fa-clock"></i>Later</button>
+						<button class="servicebtn btn1"><i class="fas fa-times"></i>Not Interested</button>
+					</div>
+				</div>
+
+				<!-- Section 2 -->
+				<div class="page slidepage">
+					<div class="title">please select an preffered items</div>
+					<div class="field seconditembtn" style="height: 100px;">
+						<button class="servicebtn btn2"><i class="fas fa-donate"></i>Products</button>
+						<button class="servicebtn btn2"><i class="fab fa-servicestack"></i>Service</button>
+						<button class="servicebtn btn2"><i class="fas fa-industry"></i>Benefits</button>
+						<button class="servicebtn btn2"><i class="fas fa-atom"></i>Deal</button>
+						<button class="prevbtn prevbtn1">previous</button>
+					</div>
+				</div>
+
+				<!-- Section 3 -->
+				<div class="page slidepage" style="height:500px;">
+					<div class="title">fillup those items</div>
+					<div class="field">
+						<header class="header1">What's on your mind?</header>
+						<textarea rows="5" cols="50" placeholder="Tell something about our services..."></textarea>
+					</div>
+					<div class="field">
+						<header class="header2">select category:</header>
+						<label class="label1" for="checkbox1">Checkbox</label>
+						<input type="checkbox" name="checkbox" id="checkbox1">
+					</div>
+					<div class="field">
+						<label class="label1" for="checkbox2">Checkbox</label>
+						<input type="checkbox" name="checkbox" id="checkbox2">
+					</div>
+					<div class="field">
+						<label class="label1" for="checkbox3">Checkbox</label>
+						<input type="checkbox" name="checkbox" id="checkbox3">
+					</div>
+					<div class="field">
+						<label class="label1" for="checkbox4">Checkbox</label>
+						<input type="checkbox" name="checkbox" id="checkbox4">
+					</div>
+					<div class="field">
+						<button class="prevbtn prevbtn2 frstprevbtn">previous</button>
+						<button class="nextbtn nextbtn1 frstnextbtn">next</button>
+					</div>
+				</div>
+
+				<!-- Section 4 -->
+				<div class="page slidepage" style="height:400px;">
+					<div class="title">select an appartment</div>
+					<div class="field" style="top: -15%;">
+						<input type="radio" name="radio" id="imgcheck">
+						<label id="label2" for="imgcheck"><img src="1.jpg" alt="house1"></label>
+						<input type="radio" name="radio" id="imgcheck2">
+						<label id="label2" for="imgcheck2"><img src="2.jpg" alt="house2"></label>
+						<input type="radio" name="radio" id="imgcheck3">
+						<label id="label2" for="imgcheck3"><img src="3.jpg" alt="house3"></label>
+						<input type="radio" name="radio" id="imgcheck4">
+						<label id="label2" for="imgcheck4"><img src="4.jpg" alt="house4"></label>
+					</div>
+					<div class="field">
+						<button class="prevbtn prevbtn3 thirdprevbtn">previous</button>
+						<button class="nextbtn nextbtn2 secondnextbtn">next</button>
+					</div>
+				</div>
+
+				<!-- Section 5 -->
+				<div class="page slidepage">
+					<div class="title">some required things</div>
+					<div class="field">
+						<header class="header4">how many times you want to stay?</header>
+						<select>
+							<option>7 days</option>
+							<option>10 days</option>
+							<option>15 days</option>
+							<option>30 days</option>
+						</select>
+					</div>
+					<div class="field">
+						<header class="header5">upload a photos if you have any related house</header>
+						<input type="file" name="file">
+						<input type="file" name="file">
+						<input type="file" name="file">
+					</div>
+					<div class="field">
+						<button class="prevbtn prevbtn4 fourthprevbtn">previous</button>
+						<button class="nextbtn nextbtn3 thirdnextbtn">next</button>
+					</div>
+				</div>
+
+				<!-- Section 6 -->
+				<div class="page slidepage" style="height:620px;overflow: hidden;display: inline-block;">
+					<div class="title">connect with us</div>
+					<div class="field">
+						<div class="label">Firstname</div>
+						<input type="text" name="firstname" id="firstname">
+					</div>
+					<div class="field">
+						<div class="label label2">Lastname</div>
+						<input type="text" name="lasttname" id="lastname">
+					</div>
+					<div class="field">
+						<div class="label label3">Gender</div>
+						<select class="select2">
+							<option>Male</option>
+							<option>Female</option>
+							<option>Other</option>
+						</select>
+					</div>
+					<div class="field">
+						<div class="label label4">Birthday</div>
+						<input type="date" name="date" id="date">
+					</div>
+					<div class="field">
+						<div class="label label5">About you</div>
+						<textarea class="pdetails" cols="40" rows="5" placeholder="Tell us something about you"></textarea>
+					</div>
+					<div class="field">
+						<button class="prevbtn prevbtn5 fifthprevbtn">previous</button>
+						<button class="nextbtn nextbtn4 fourthnextbtn">next</button>
+					</div>
+				</div>
+
+				<!-- Section 7 -->
+				<div class="page slidepage">
+					<div class="title">more details</div>
+					<div class="field">
+						<div class="label label6">username</div>
+						<input type="text" name="username" id="username">
+					</div>
+					<div class="field">
+						<div class="label label7">password</div>
+						<input type="password" name="password" id="password">
+					</div>
+					<div class="field">
+						<button class="prevbtn prevbtn6 sixprevbtn">previous</button>
+						<button class="nextbtn nextbtn5 fifthnextbtn">next</button>
+					</div>
+				</div>
+
+				<!-- Section 8 -->
+				<div class="page slidepage">
+					<div class="title">Checkout</div>
+					<div class="field">
+						<header class="header6">Accepted cards</header>
+						<img src="mastercard2.png" alt="cards" class="pimg pimg1">
+						<img src="mastercard.png" alt="cards" class="pimg">
+						<img src="american.png" alt="cards" class="pimg">
+					</div>
+					<div class="field">
+						<div class="label label8">account name</div>
+							<input type="text" name="name" placeholder="jhon doe" id="acn">
+					</div>
+					<div class="field">
+						<div class="label label9">credit card number</div>
+							<input type="text" name="name" placeholder="1111- 2222-3333-4444" id="ccn">
+					</div>
+					<div class="field">
+						<div class="label label10">exp. month</div>
+							<input type="text" name="name" placeholder="July" id="em">
+					</div>
+					<div class="field">
+						<div class="label label11">CVV</div>
+							<input type="text" name="name" placeholder="436" id="cvv">
+					</div>
+					<div class="field">
+						<div class="label label12">exp. year</div>
+							<input type="text" name="name" placeholder="2020" id="ey">
+					</div>
+					<div class="field">
+						<button class="prevbtn prevbtn7 seventhprevbtn">previous</button>
+						<button class="nextbtn nextbtn6 sixnextbtn">next</button>
+					</div>
+				</div>
+
+				<!-- Section 9 -->
+				<div class="page slidepage">
+					<div class="title">billing address</div>
+					<div class="field">
+						<div class="label label13">full name</div>
+							<input type="text" name="name" placeholder="jhon doe" id="fn">
+					</div>
+					<div class="field">
+						<div class="label label14">email</div>
+							<input type="email" name="email" placeholder="abc@gmail.com" id="email">
+					</div>
+					<div class="field">
+						<div class="label label15">address</div>
+							<input type="text" name="name" placeholder="Munich,Germany,street 15" id="address">
+					</div>
+					<div class="field">
+						<div class="label label16">city</div>
+							<input type="text" name="name" placeholder="Germany" id="city">
+					</div>
+					<div class="field">
+						<div class="label label17">state</div>
+							<input type="text" name="name" placeholder="Berlin" id="state">
+					</div>
+					<div class="field">
+							<input type="checkbox" name="checkbox" id="checkbox5">
+							<div class="label label18">I agree to terms and condition</div>
+					</div>
+					<div class="field">
+						<button class="prevbtn prevbtn8 eightprevbtn">previous</button>
+						<button class="submitbtn sub-btn">submit</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	
+
+	<script src="main.js"></script>
+</body>
+</html>
